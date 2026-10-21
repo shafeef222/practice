@@ -9,8 +9,8 @@ document.getElementById("circlebtn").onclick = function() {
     console.log("radius entered: " + radius);
     console.log("circumference: " + circumference);
     console.log("area:"+ area)
-    document.getElementById("greeting").innerText = "The circumference of the circle is: " + circumference;
-    document.getElementById("area").textContent = "The area of the circle is: " + area;
+    document.getElementById("greeting").innerText = "The circumference = " + circumference;
+    document.getElementById("area").textContent = "The area = " + area;
 }
 
     let length;
@@ -28,8 +28,8 @@ document.getElementById("recbtn").onclick = function() {
     console.log("width entered: " + width);
     console.log("area:"+ area1)
     console.log("perimeter:"+ perimeter1)
-    document.getElementById("rectangle-area").innerText = "The area of the rectangle is: " + area1;
-    document.getElementById("rectangle-perimeter").textContent = "The perimeter of the rectangle is: " + perimeter1;
+    document.getElementById("rectangle-area").innerText = "The area = " + area1;
+    document.getElementById("rectangle-perimeter").textContent = "The perimeter = " + perimeter1;
   
 
 }
@@ -51,6 +51,6 @@ document.getElementById("trianglebtn").onclick = function() {
     console.log("height entered: " + height);
     console.log("area:"+ area2)
     console.log("perimeter:"+ perimeter2)
-    document.getElementById("triangle-area").innerText = "The area of the triangle is: " + area2;
-    document.getElementById("triangle-perimeter").textContent = "The perimeter of the triangle is: " + perimeter2;
+    document.getElementById("triangle-area").innerText = "The area = " + area2;
+    document.getElementById("triangle-perimeter").textContent = "The perimeter = " + perimeter2;
 }
